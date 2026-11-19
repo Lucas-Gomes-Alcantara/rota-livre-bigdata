@@ -1,0 +1,656 @@
+{
+  "pessoas_2015-2021.csv": {
+    "encoding": "latin-1",
+    "delimitador": ";",
+    "colunas": [
+      "id_sinistro",
+      "id_pessoa",
+      "id_veiculo",
+      "cod_ibge",
+      "municipio",
+      "regiao_administrativa",
+      "tipo_via",
+      "tipo_veiculo_vitima",
+      "tipo_de_vitima",
+      "modo_transporte_vitima",
+      "sexo",
+      "idade",
+      "gravidade_lesao",
+      "faixa_etaria_demografica",
+      "faixa_etaria_legal",
+      "profissao",
+      "grau_de_instrucao",
+      "nacionalidade",
+      "data_sinistro",
+      "ano_sinistro",
+      "mes_sinistro",
+      "dia_sinistro",
+      "ano_mes_sinistro",
+      "data_obito",
+      "ano_obito",
+      "mes_obito",
+      "dia_obito",
+      "ano_mes_obito",
+      "local_obito",
+      "local_via",
+      "tempo_sinistro_obito"
+    ]
+  },
+  "pessoas_2022-2024.csv": {
+    "encoding": "latin-1",
+    "delimitador": ";",
+    "colunas": [
+      "id_sinistro",
+      "id_pessoa",
+      "id_veiculo",
+      "cod_ibge",
+      "municipio",
+      "regiao_administrativa",
+      "tipo_via",
+      "tipo_veiculo_vitima",
+      "tipo_de_vitima",
+      "modo_transporte_vitima",
+      "sexo",
+      "idade",
+      "gravidade_lesao",
+      "faixa_etaria_demografica",
+      "faixa_etaria_legal",
+      "profissao",
+      "grau_de_instrucao",
+      "nacionalidade",
+      "data_sinistro",
+      "ano_sinistro",
+      "mes_sinistro",
+      "dia_sinistro",
+      "ano_mes_sinistro",
+      "data_obito",
+      "ano_obito",
+      "mes_obito",
+      "dia_obito",
+      "ano_mes_obito",
+      "local_obito",
+      "local_via",
+      "tempo_sinistro_obito"
+    ]
+  },
+  "pessoas_2025-2026.csv": {
+    "encoding": "latin-1",
+    "delimitador": ";",
+    "colunas": [
+      "id_sinistro",
+      "id_pessoa",
+      "id_veiculo",
+      "cod_ibge",
+      "municipio",
+      "regiao_administrativa",
+      "tipo_via",
+      "tipo_veiculo_vitima",
+      "tipo_de_vitima",
+      "modo_transporte_vitima",
+      "sexo",
+      "idade",
+      "gravidade_lesao",
+      "faixa_etaria_demografica",
+      "faixa_etaria_legal",
+      "profissao",
+      "grau_de_instrucao",
+      "nacionalidade",
+      "data_sinistro",
+      "ano_sinistro",
+      "mes_sinistro",
+      "dia_sinistro",
+      "ano_mes_sinistro",
+      "data_obito",
+      "ano_obito",
+      "mes_obito",
+      "dia_obito",
+      "ano_mes_obito",
+      "local_obito",
+      "local_via",
+      "tempo_sinistro_obito"
+    ]
+  },
+  "sinistros_2015-2021.csv": {
+    "encoding": "latin-1",
+    "delimitador": ";",
+    "colunas": [
+      "id_sinistro",
+      "tipo_registro",
+      "data_sinistro",
+      "ano_sinistro",
+      "mes_sinistro",
+      "dia_sinistro",
+      "hora_sinistro",
+      "ano_mes_sinistro",
+      "dia_da_semana",
+      "turno",
+      "logradouro",
+      "numero_logradouro",
+      "tipo_via",
+      "tipo_local",
+      "latitude",
+      "longitude",
+      "cod_ibge",
+      "municipio",
+      "regiao_administrativa",
+      "administracao",
+      "conservacao",
+      "circunscricao",
+      "tp_sinistro_primario",
+      "qtd_pedestre",
+      "qtd_bicicleta",
+      "qtd_motocicleta",
+      "qtd_automovel",
+      "qtd_onibus",
+      "qtd_caminhao",
+      "qtd_veic_outros",
+      "qtd_veic_nao_disponivel",
+      "qtd_gravidade_fatal",
+      "qtd_gravidade_grave",
+      "qtd_gravidade_leve",
+      "qtd_gravidade_ileso",
+      "qtd_gravidade_nao_disponivel",
+      "tp_sinistro_atrop_pedestre",
+      "tp_sinistro_atrop_vitima_fora_veic",
+      "tp_sinistro_colisao_frontal",
+      "tp_sinistro_colisao_traseira",
+      "tp_sinistro_colisao_lateral",
+      "tp_sinistro_colisao_transversal",
+      "tp_sinistro_colisao_outros",
+      "tp_sinistro_choque",
+      "tp_sinistro_atrop_animal",
+      "tp_sinistro_capotamento",
+      "tp_sinistro_engavetamento",
+      "tp_sinistro_tombamento",
+      "tp_sinistro_outros",
+      "tp_sinistro_nao_disponivel"
+    ],
+    "analise": {
+      "linhas_total": 535533,
+      "linhas_capital": 130908,
+      "capital_sem_coordenada": 529,
+      "coluna_municipio": "municipio",
+      "coluna_data": "data_sinistro",
+      "colunas_pedestre": {
+        "qtd_pedestre": {
+          "": 117573,
+          "1": 9886,
+          "2": 2792,
+          "3": 536,
+          "4": 91,
+          "5": 22,
+          "6": 7,
+          "7": 1
+        },
+        "tp_sinistro_atrop_pedestre": {
+          "": 111608,
+          "S": 19300
+        }
+      },
+      "colunas_tipo": {
+        "tipo_registro": {
+          "SINISTRO NAO FATAL": 80636,
+          "NOTIFICACAO": 44579,
+          "SINISTRO FATAL": 5693
+        },
+        "tipo_via": {
+          "VIAS URBANAS": 123249,
+          "ESTRADAS E RODOVIAS": 6948,
+          "NAO DISPONIVEL": 711
+        },
+        "tipo_local": {
+          "PUBLICO": 74893,
+          "NAO DISPONIVEL": 55628,
+          "PRIVADO": 387
+        },
+        "tp_sinistro_primario": {
+          "OUTROS": 52394,
+          "COLISAO": 49339,
+          "ATROPELAMENTO": 19336,
+          "CHOQUE": 5255,
+          "NAO DISPONIVEL": 4584
+        },
+        "tp_sinistro_atrop_pedestre": {
+          "": 111608,
+          "S": 19300
+        },
+        "tp_sinistro_atrop_vitima_fora_veic": {
+          "": 130872,
+          "S": 36
+        },
+        "tp_sinistro_colisao_frontal": {
+          "": 113584,
+          "S": 17324
+        },
+        "tp_sinistro_colisao_traseira": {
+          "": 130908
+        },
+        "tp_sinistro_colisao_lateral": {
+          "": 104955,
+          "S": 25953
+        },
+        "tp_sinistro_colisao_transversal": {
+          "": 117198,
+          "S": 13710
+        },
+        "tp_sinistro_colisao_outros": {
+          "": 129983,
+          "S": 925
+        },
+        "tp_sinistro_choque": {
+          "": 124689,
+          "S": 6219
+        },
+        "tp_sinistro_atrop_animal": {
+          "": 130634,
+          "S": 274
+        },
+        "tp_sinistro_capotamento": {
+          "": 129658,
+          "S": 1250
+        },
+        "tp_sinistro_engavetamento": {
+          "": 130208,
+          "S": 700
+        }
+      },
+      "exemplos_formato": [
+        {
+          "data": "03/01/2015",
+          "lat": "-23,5681426",
+          "lon": "-46,4582515"
+        },
+        {
+          "data": "10/01/2015",
+          "lat": "-23,48882",
+          "lon": "-46,684293"
+        },
+        {
+          "data": "17/01/2015",
+          "lat": "-23,52759",
+          "lon": "-46,568203"
+        }
+      ]
+    }
+  },
+  "sinistros_2022-2024.csv": {
+    "encoding": "latin-1",
+    "delimitador": ";",
+    "colunas": [
+      "id_sinistro",
+      "tipo_registro",
+      "data_sinistro",
+      "ano_sinistro",
+      "mes_sinistro",
+      "dia_sinistro",
+      "hora_sinistro",
+      "ano_mes_sinistro",
+      "dia_da_semana",
+      "turno",
+      "logradouro",
+      "numero_logradouro",
+      "tipo_via",
+      "tipo_local",
+      "latitude",
+      "longitude",
+      "cod_ibge",
+      "municipio",
+      "regiao_administrativa",
+      "administracao",
+      "conservacao",
+      "circunscricao",
+      "tp_sinistro_primario",
+      "qtd_pedestre",
+      "qtd_bicicleta",
+      "qtd_motocicleta",
+      "qtd_automovel",
+      "qtd_onibus",
+      "qtd_caminhao",
+      "qtd_veic_outros",
+      "qtd_veic_nao_disponivel",
+      "qtd_gravidade_fatal",
+      "qtd_gravidade_grave",
+      "qtd_gravidade_leve",
+      "qtd_gravidade_ileso",
+      "qtd_gravidade_nao_disponivel",
+      "tp_sinistro_atrop_pedestre",
+      "tp_sinistro_atrop_vitima_fora_veic",
+      "tp_sinistro_colisao_frontal",
+      "tp_sinistro_colisao_traseira",
+      "tp_sinistro_colisao_lateral",
+      "tp_sinistro_colisao_transversal",
+      "tp_sinistro_colisao_outros",
+      "tp_sinistro_choque",
+      "tp_sinistro_atrop_animal",
+      "tp_sinistro_capotamento",
+      "tp_sinistro_engavetamento",
+      "tp_sinistro_tombamento",
+      "tp_sinistro_outros",
+      "tp_sinistro_nao_disponivel"
+    ],
+    "analise": {
+      "linhas_total": 598881,
+      "linhas_capital": 136349,
+      "capital_sem_coordenada": 399,
+      "coluna_municipio": "municipio",
+      "coluna_data": "data_sinistro",
+      "colunas_pedestre": {
+        "qtd_pedestre": {
+          "": 124262,
+          "1": 8664,
+          "2": 2772,
+          "3": 507,
+          "4": 107,
+          "5": 27,
+          "6": 4,
+          "7": 3
+        },
+        "tp_sinistro_atrop_pedestre": {
+          "": 117532,
+          "S": 18817
+        }
+      },
+      "colunas_tipo": {
+        "tipo_registro": {
+          "SINISTRO NAO FATAL": 85701,
+          "NOTIFICACAO": 47893,
+          "SINISTRO FATAL": 2755
+        },
+        "tipo_via": {
+          "VIAS URBANAS": 127661,
+          "ESTRADAS E RODOVIAS": 7901,
+          "NAO DISPONIVEL": 787
+        },
+        "tipo_local": {
+          "PUBLICO": 69359,
+          "NAO DISPONIVEL": 66616,
+          "PRIVADO": 374
+        },
+        "tp_sinistro_primario": {
+          "COLISAO": 54730,
+          "OUTROS": 45236,
+          "ATROPELAMENTO": 18843,
+          "NAO DISPONIVEL": 13234,
+          "CHOQUE": 4306
+        },
+        "tp_sinistro_atrop_pedestre": {
+          "": 117532,
+          "S": 18817
+        },
+        "tp_sinistro_atrop_vitima_fora_veic": {
+          "": 136323,
+          "S": 26
+        },
+        "tp_sinistro_colisao_frontal": {
+          "": 115817,
+          "S": 20532
+        },
+        "tp_sinistro_colisao_traseira": {
+          "": 136349
+        },
+        "tp_sinistro_colisao_lateral": {
+          "": 107595,
+          "S": 28754
+        },
+        "tp_sinistro_colisao_transversal": {
+          "": 120418,
+          "S": 15931
+        },
+        "tp_sinistro_colisao_outros": {
+          "": 136101,
+          "S": 248
+        },
+        "tp_sinistro_choque": {
+          "": 130878,
+          "S": 5471
+        },
+        "tp_sinistro_atrop_animal": {
+          "": 136108,
+          "S": 241
+        },
+        "tp_sinistro_capotamento": {
+          "": 135143,
+          "S": 1206
+        },
+        "tp_sinistro_engavetamento": {
+          "": 135665,
+          "S": 684
+        }
+      },
+      "exemplos_formato": [
+        {
+          "data": "01/01/2022",
+          "lat": "-23,65740534",
+          "lon": "-46,63373763"
+        },
+        {
+          "data": "01/01/2022",
+          "lat": "-23,60400858",
+          "lon": "-46,5056391"
+        },
+        {
+          "data": "01/01/2022",
+          "lat": "-23,73644593",
+          "lon": "-46,69913694"
+        }
+      ]
+    }
+  },
+  "sinistros_2025-2026.csv": {
+    "encoding": "latin-1",
+    "delimitador": ";",
+    "colunas": [
+      "id_sinistro",
+      "tipo_registro",
+      "data_sinistro",
+      "ano_sinistro",
+      "mes_sinistro",
+      "dia_sinistro",
+      "hora_sinistro",
+      "ano_mes_sinistro",
+      "dia_da_semana",
+      "turno",
+      "logradouro",
+      "numero_logradouro",
+      "tipo_via",
+      "tipo_local",
+      "latitude",
+      "longitude",
+      "cod_ibge",
+      "municipio",
+      "regiao_administrativa",
+      "administracao",
+      "conservacao",
+      "circunscricao",
+      "tp_sinistro_primario",
+      "qtd_pedestre",
+      "qtd_bicicleta",
+      "qtd_motocicleta",
+      "qtd_automovel",
+      "qtd_onibus",
+      "qtd_caminhao",
+      "qtd_veic_outros",
+      "qtd_veic_nao_disponivel",
+      "qtd_gravidade_fatal",
+      "qtd_gravidade_grave",
+      "qtd_gravidade_leve",
+      "qtd_gravidade_ileso",
+      "qtd_gravidade_nao_disponivel",
+      "tp_sinistro_atrop_pedestre",
+      "tp_sinistro_atrop_vitima_fora_veic",
+      "tp_sinistro_colisao_frontal",
+      "tp_sinistro_colisao_traseira",
+      "tp_sinistro_colisao_lateral",
+      "tp_sinistro_colisao_transversal",
+      "tp_sinistro_colisao_outros",
+      "tp_sinistro_choque",
+      "tp_sinistro_atrop_animal",
+      "tp_sinistro_capotamento",
+      "tp_sinistro_engavetamento",
+      "tp_sinistro_tombamento",
+      "tp_sinistro_outros",
+      "tp_sinistro_nao_disponivel"
+    ],
+    "analise": {
+      "linhas_total": 330877,
+      "linhas_capital": 80173,
+      "capital_sem_coordenada": 28770,
+      "coluna_municipio": "municipio",
+      "coluna_data": "data_sinistro",
+      "colunas_pedestre": {
+        "qtd_pedestre": {
+          "": 73815,
+          "1": 4825,
+          "2": 1260,
+          "3": 222,
+          "4": 40,
+          "5": 8,
+          "6": 2,
+          "8": 1
+        },
+        "tp_sinistro_atrop_pedestre": {
+          "": 68402,
+          "S": 11771
+        }
+      },
+      "colunas_tipo": {
+        "tipo_registro": {
+          "SINISTRO NAO FATAL": 46228,
+          "NOTIFICACAO": 32080,
+          "SINISTRO FATAL": 1865
+        },
+        "tipo_via": {
+          "VIAS URBANAS": 73040,
+          "ESTRADAS E RODOVIAS": 7009,
+          "NAO DISPONIVEL": 124
+        },
+        "tipo_local": {
+          "NAO DISPONIVEL": 42721,
+          "PUBLICO": 37255,
+          "PRIVADO": 197
+        },
+        "tp_sinistro_primario": {
+          "COLISAO": 34456,
+          "NAO DISPONIVEL": 19123,
+          "OUTROS": 12661,
+          "ATROPELAMENTO": 11786,
+          "CHOQUE": 2147
+        },
+        "tp_sinistro_atrop_pedestre": {
+          "": 68402,
+          "S": 11771
+        },
+        "tp_sinistro_atrop_vitima_fora_veic": {
+          "": 80158,
+          "S": 15
+        },
+        "tp_sinistro_colisao_frontal": {
+          "": 67129,
+          "S": 13044
+        },
+        "tp_sinistro_colisao_traseira": {
+          "": 80173
+        },
+        "tp_sinistro_colisao_lateral": {
+          "": 62218,
+          "S": 17955
+        },
+        "tp_sinistro_colisao_transversal": {
+          "": 70205,
+          "S": 9968
+        },
+        "tp_sinistro_colisao_outros": {
+          "": 80006,
+          "S": 167
+        },
+        "tp_sinistro_choque": {
+          "": 77501,
+          "S": 2672
+        },
+        "tp_sinistro_atrop_animal": {
+          "": 80094,
+          "S": 79
+        },
+        "tp_sinistro_capotamento": {
+          "": 79541,
+          "S": 632
+        },
+        "tp_sinistro_engavetamento": {
+          "": 79824,
+          "S": 349
+        }
+      },
+      "exemplos_formato": [
+        {
+          "data": "01/01/2025",
+          "lat": "",
+          "lon": ""
+        },
+        {
+          "data": "01/01/2025",
+          "lat": "-23,6275185",
+          "lon": "-46,6517647"
+        },
+        {
+          "data": "01/01/2025",
+          "lat": "-23,4657",
+          "lon": "-46,6795"
+        }
+      ]
+    }
+  },
+  "veiculos_2015-2021.csv": {
+    "encoding": "utf-8-sig",
+    "delimitador": ";",
+    "colunas": [
+      "id_sinistro",
+      "id_veiculo",
+      "marca_modelo",
+      "ano_fab",
+      "ano_modelo",
+      "cor_veiculo",
+      "tipo_veiculo",
+      "data_sinistro",
+      "ano_sinistro",
+      "mes_sinistro",
+      "dia_sinistro",
+      "ano_mes_sinistro"
+    ]
+  },
+  "veiculos_2022-2024.csv": {
+    "encoding": "utf-8-sig",
+    "delimitador": ";",
+    "colunas": [
+      "id_sinistro",
+      "id_veiculo",
+      "marca_modelo",
+      "ano_fab",
+      "ano_modelo",
+      "cor_veiculo",
+      "tipo_veiculo",
+      "data_sinistro",
+      "ano_sinistro",
+      "mes_sinistro",
+      "dia_sinistro",
+      "ano_mes_sinistro"
+    ]
+  },
+  "veiculos_2025-2026.csv": {
+    "encoding": "latin-1",
+    "delimitador": ";",
+    "colunas": [
+      "id_sinistro",
+      "id_veiculo",
+      "marca_modelo",
+      "ano_fab",
+      "ano_modelo",
+      "cor_veiculo",
+      "tipo_veiculo",
+      "data_sinistro",
+      "ano_sinistro",
+      "mes_sinistro",
+      "dia_sinistro",
+      "ano_mes_sinistro"
+    ]
+  }
+}

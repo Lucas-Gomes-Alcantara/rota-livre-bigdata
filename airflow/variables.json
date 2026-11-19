@@ -1,0 +1,12 @@
+{
+  "rota_livre_chegada_dir": "/opt/airflow/chegada",
+  "rota_livre_cache_dir": "/opt/airflow/cache",
+  "rota_livre_user_agent": "RotaLivre-FIAP/1.0 (projeto academico; coleta de dados abertos)",
+  "rota_livre_sp156_ckan_url": "https://dados.prefeitura.sp.gov.br/api/3/action/package_show?id=dados-do-sp156",
+  "rota_livre_sp156_trimestres": "4",
+  "rota_livre_sp156_palavras_chave": "[\"calcad\", \"passeio\", \"rampa\", \"acessib\", \"rebaix\", \"piso tatil\", \"desnivel\", \"obstru\", \"pedestre\", \"buraco\"]",
+  "rota_livre_ckan_api_key": "",
+  "rota_livre_infosiga_ckan_url": "https://dadosabertos.sp.gov.br/api/3/action/package_show?id=sinistros-infosiga",
+  "rota_livre_infosiga_urls_alternativas": "[\"https://infosiga.detran.sp.gov.br/painel/download/file/dados_infosiga.zip\", \"https://infosiga.detran.sp.gov.br/rest/painel/download/file/dados_infosiga.zip\"]",
+  "rota_livre_infosiga_ano_minimo": "2022"
+}

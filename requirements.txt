@@ -1,0 +1,6 @@
+# O pipeline NAO exige instalacao local de pacotes:
+#  - Airflow roda no container oficial (airflow/docker-compose.yaml, imagem apache/airflow:3.3.1);
+#  - as coletas e os scripts usam somente a biblioteca padrao do Python 3.10+;
+#  - os notebooks rodam no Databricks Free Edition (serverless, PySpark/SQL ja disponiveis).
+# Opcional, so para autocompletar/lint do DAG na IDE:
+apache-airflow==3.3.1

@@ -1,0 +1,9 @@
+.cache/
+chegada/*
+!chegada/.gitkeep
+airflow/logs/
+airflow/.env
+.env
+__pycache__/
+*.pyc
+.segredos/
