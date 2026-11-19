@@ -1,7 +1,6 @@
 # Relatorio - Rota Livre | Big Data Architecture & Data Integration
 
 Roteiro do PDF na ordem exigida pelo enunciado. Numeros: `docs/evidencias.md` e `docs/consultas.md`.
-Itens marcados **[PENDENTE]** dependem de informacao ou print que ainda nao existe - nao inventar.
 
 ---
 
@@ -23,8 +22,7 @@ Perguntas respondidas pelo MVP:
 3. Em quais areas barreiras nao resolvidas e atropelamentos de pedestres se sobrepoem?
 
 ## 3. Diagrama do fluxo de dados
-Diagrama do `README.md` (Mermaid; o GitHub renderiza). Print: **[PENDENTE]** `Diagrama.png`
-(print do README no GitHub ou exportacao do diagrama).
+Diagrama do `README.md` (Mermaid, renderizado pelo GitHub). Print: `docs/prints/Arquitetura do projeto.png`.
 
 ## 4. Fontes
 
@@ -45,7 +43,7 @@ Diagrama do `README.md` (Mermaid; o GitHub renderiza). Print: **[PENDENTE]** `Di
 | 06 | Prata: tipos, nulos/invalidos, MERGE, 3 regras com contagem | **Atendido** | `docs/prints/DATABRICKS/2. PRATA/` (8 prints) | R1 coordenada, R2 data, R3 dominio em `log_qualidade`; MERGE por chave (lote 2: 0 inseridos, 64.008 existentes). |
 | 07 | Ouro: 1 fato, 2+ dimensoes, 5 consultas, 1 de impacto | **Atendido** | `docs/prints/DATABRICKS/3. OURO/Camada OURO - Evidências 1.png` e `2.png`, `docs/prints/DATABRICKS/4. CONSULTAS/` | 2 fatos + 3 dimensoes, 0 orfaos; consulta 5 = indicador de impacto. |
 | 08 | Dados pessoais protegidos; tabela e tela do MVP | **Atendido** | `docs/prints/DATABRICKS/3. OURO/Camada OURO - Evidências 3.png`, `4.png`, `5.png` | CEP -> SHA-256 com salt, numero mascarado, coordenada com 3 casas. `mvp_mapa_barreiras` -> tela **"Mapa de barreiras"** (campo -> elemento no README). |
-| 09 | Repositorio com README (integrantes, arquitetura, reproducao) | **Parcialmente atendido** | **[PENDENTE: print do repositorio no GitHub]** | README com integrantes, arquitetura e reproducao em https://github.com/Lucas-Gomes-Alcantara/rota-livre-bigdata. |
+| 09 | Repositorio com README (integrantes, arquitetura, reproducao) | **Atendido** | `docs/prints/Repositório no GITHUB.png`, `docs/prints/Arquitetura do projeto.png` | Repositorio publico https://github.com/Lucas-Gomes-Alcantara/rota-livre-bigdata com README (integrantes, arquitetura, fontes, reproducao, checklist). |
 
 ## 6. Airflow - visoes Graph e Grid
 Pasta `docs/prints/AIRFLOW/`: `AIRFLOW - Execução DAG 1 - gráfico.png`, `... DAG 1 - grade.png`, `... DAG 2 - gráfico.png`, `... DAG 2 - grade.png`.

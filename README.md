@@ -162,4 +162,16 @@ Na Ouro: `cep_hash` (SHA-256 + salt secreto), `numero_mascarado` (`1243` -> `12X
 
 ## Checklist dos requisitos
 
-Ver `docs/relatorio.md`, secao 5.
+| # | Requisito | Status | Evidencia |
+|---|---|---|---|
+| 01 | 2+ fontes, 1+ API/base aberta | Atendido | `docs/verificacao/`, secao Fontes |
+| 02 | DAG agendado, 1 arquivo por coleta com data | Atendido | `docs/prints/AIRFLOW/`, `docs/prints/DATABRICKS/0. Lotes de Volume.png` |
+| 03 | 2 tarefas paralelas, sensor, credenciais em Variables | Atendido | `docs/prints/AIRFLOW/` (grafico e Variaveis) |
+| 04 | Volume em 2 lotes de dias diferentes | Atendido | `docs/prints/DATABRICKS/0. Lotes de Volume.png` |
+| 05 | Bronze Auto Loader, incremental, sem duplicar | Atendido | `docs/prints/DATABRICKS/1. BRONZE/` |
+| 06 | Prata: tipos, nulos, MERGE, 3 regras com contagem | Atendido | `docs/prints/DATABRICKS/2. PRATA/` |
+| 07 | Ouro: fato, 2+ dimensoes, 5 consultas (1 de impacto) | Atendido | `docs/prints/DATABRICKS/3. OURO/`, `4. CONSULTAS/`, `docs/consultas.md` |
+| 08 | Dados pessoais protegidos; tabela e tela do MVP | Atendido | `docs/prints/DATABRICKS/3. OURO/` (evidencias 3 a 5), secao Protecao de dados e MVP |
+| 09 | Repositorio publicado com README | Atendido | este repositorio |
+
+Relatorio completo (roteiro do PDF): `docs/relatorio.md`. Numeros de todas as camadas: `docs/evidencias.md`.
